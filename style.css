@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+  margin: 0
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+  border-radius: 25px;
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 100px;
+}
+
+#logo{
+  width: 300px;
+  margin-top: 25px;
+}
+
+header h1{
+  color: #00dd00;
+}
+
+.container > nav{
+  display: inline-block;
+  background-color: #00dd00;
+  padding: 4px;
+  margin-top: 20px;
+  width: 900px;
+}
+
+.booking{
+  padding: 2px;
+  font-size: large;
+}
+
+#status{
+  text-align: left;
+  width: 900px;
+  margin: auto;
+}
+
+h2{
+  display: inline-block;
+  color: white;
+  margin-top: 25px;
+}
+
+p{
+  color: white;
+  margin-top: 8px;
+}
+
+#progress1 {
+	display:inline-block;
+	width: 190px;
+	height: 20px;
+	padding: 15px;
+	border-radius: 10px;
+  background-color: rgb(255, 255, 0);
+  margin-top: 9px;
+}
+
+#progress2 {
+	display:inline-block;
+	width: 270px;
+	height: 20px;
+	padding: 15px;
+	border-radius: 10px;
+  background-color: rgb(0, 255, 0);
+  margin-top: 9px;
+}
+
+#progress3 {
+	display:inline-block;
+	width: 100px;
+	height: 20px;
+	padding: 15px;
+	border-radius: 10px;
+  background-color: rgb(255, 0, 0);
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+
+
